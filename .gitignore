@@ -1,0 +1,34 @@
+# Secrets
+.env
+.streamlit/secrets.toml
+
+# Python
+.venv/
+venv/
+env/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.coverage
+
+# Streamlit
+.streamlit/secrets.toml
+
+# Database and uploaded project data
+storage/*.db
+storage/*.db-journal
+storage/projects/*
+!storage/projects/.gitkeep
+
+# Build and dependency artifacts
+node_modules/
+dist/
+build/
+chroma_store/
+
+# OS/editor
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/

@@ -1,0 +1,27 @@
+# Environment
+.env
+venv/
+env/
+__pycache__/
+*.pyc
+
+# Streamlit
+.streamlit/secrets.toml
+
+# Database
+storage/projectiq.db
+storage/*.db
+storage/*.db-journal
+
+# Uploaded / extracted projects
+storage/projects/*
+!storage/projects/.gitkeep
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+
+# Chroma / embeddings cache (only used if optional RAG upgrade is enabled)
+chroma_store/

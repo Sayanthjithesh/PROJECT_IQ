@@ -1,0 +1,21 @@
+[theme]
+# ------------------------------------------------------------------
+# PROJECTIQ Design System - 60/30/10 Color Rule
+# 60% Dominant  -> backgroundColor            (#0B0F19 deep charcoal navy)
+# 30% Secondary -> secondaryBackgroundColor    (#141A2A panel / card surface)
+# 10% Accent    -> primaryColor                (#4F7CFF signal blue)
+# ------------------------------------------------------------------
+base = "light"
+primaryColor = "#ab230e" 
+backgroundColor = "#F4F6FB"
+secondaryBackgroundColor = "#FFFFFF"
+textColor = "#000000" 
+font = "sans serif"
+
+[server]
+maxUploadSize = 100
+enableXsrfProtection = true
+enableCORS = false
+
+[browser]
+gatherUsageStats = false

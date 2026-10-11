@@ -1,0 +1,3 @@
+GOALS={'College Submission':['Improve documentation and validation','Add meaningful visualizations','Prepare demonstration dataset and report'],'Portfolio Ready':['Add testing and polished UX','Deploy the application','Document architecture and outcomes'],'Startup MVP':['Add authentication and persistent workflows','Define user feedback loop','Add monitoring and error reporting'],'Production Ready':['Strengthen security review','Add CI/CD and automated tests','Containerize and design scalable services']}
+def roadmap(goal,score):
+ items=GOALS.get(goal,GOALS['Portfolio Ready']); return [{'version':f'Version {i+1}.0','action':x} for i,x in enumerate(items)], max(0,100-score)

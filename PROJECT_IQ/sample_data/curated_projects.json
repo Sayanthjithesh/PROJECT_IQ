@@ -1,0 +1,92 @@
+[
+  {
+    "name": "Fraud Detection System",
+    "domain": "FinTech",
+    "description": "A machine learning web application that ingests transaction data, trains a classification model, and flags potentially fraudulent transactions through a dashboard.",
+    "features": ["Dashboard", "Machine Learning", "Prediction", "Database", "REST API", "Authentication"]
+  },
+  {
+    "name": "AI Resume Screening Platform",
+    "domain": "HR Tech",
+    "description": "An NLP powered application that parses uploaded resumes, extracts skills, and produces a match score against a job description.",
+    "features": ["File Upload", "Machine Learning", "Prediction", "Dashboard", "REST API", "Database"]
+  },
+  {
+    "name": "Expense Tracker",
+    "domain": "Personal Finance",
+    "description": "A CRUD web application for logging expenses, categorizing spending, and visualizing monthly analytics.",
+    "features": ["CRUD Operations", "Dashboard", "Data Visualization", "Database", "Authentication"]
+  },
+  {
+    "name": "E-Commerce Storefront",
+    "domain": "Retail / E-Commerce",
+    "description": "A full-stack storefront with product catalog, shopping cart, checkout flow, and order history.",
+    "features": ["CRUD Operations", "Authentication", "Database", "REST API", "Notifications", "Reports / Export"]
+  },
+  {
+    "name": "Learning Management System",
+    "domain": "EdTech",
+    "description": "A platform for course creation, enrollment, progress tracking, and quizzes with an instructor dashboard.",
+    "features": ["Authentication", "Dashboard", "Database", "REST API", "File Upload", "Notifications"]
+  },
+  {
+    "name": "Healthcare Appointment Scheduler",
+    "domain": "HealthTech",
+    "description": "An application for booking, rescheduling, and managing patient appointments with automated reminders.",
+    "features": ["Authentication", "Database", "Notifications", "REST API", "Dashboard"]
+  },
+  {
+    "name": "Sentiment Analysis Dashboard",
+    "domain": "NLP / Analytics",
+    "description": "A tool that ingests text data, runs sentiment classification, and visualizes trends over time.",
+    "features": ["Machine Learning", "Prediction", "Data Visualization", "Dashboard", "REST API"]
+  },
+  {
+    "name": "Recipe Sharing Community",
+    "domain": "Social / Lifestyle",
+    "description": "A social platform where users publish recipes, follow other cooks, comment, and search by ingredient.",
+    "features": ["Authentication", "CRUD Operations", "Search", "Database", "File Upload", "Notifications"]
+  },
+  {
+    "name": "DevOps Monitoring Dashboard",
+    "domain": "Developer Tools",
+    "description": "A real-time dashboard that aggregates service health metrics, error rates, and deployment history.",
+    "features": ["Dashboard", "Data Visualization", "REST API", "Notifications", "Docker", "Deployment Configuration"]
+  },
+  {
+    "name": "AI Customer Support Chatbot",
+    "domain": "Customer Service",
+    "description": "A retrieval-augmented chatbot that answers customer questions using a company knowledge base.",
+    "features": ["Machine Learning", "REST API", "Database", "Authentication", "Dashboard"]
+  },
+  {
+    "name": "Real Estate Listing Portal",
+    "domain": "Real Estate",
+    "description": "A marketplace for property listings with search filters, saved favorites, and agent contact workflows.",
+    "features": ["CRUD Operations", "Search", "Authentication", "Database", "File Upload", "REST API"]
+  },
+  {
+    "name": "Personal Portfolio & Blog Engine",
+    "domain": "Content / Publishing",
+    "description": "A static-content-driven personal site with a blog, project showcase, and contact form.",
+    "features": ["CRUD Operations", "Documentation", "REST API"]
+  },
+  {
+    "name": "Job Application Tracker",
+    "domain": "Productivity",
+    "description": "A tool to log job applications, track statuses, and visualize pipeline progress over time.",
+    "features": ["CRUD Operations", "Dashboard", "Data Visualization", "Authentication", "Database"]
+  },
+  {
+    "name": "AI Code Review Assistant",
+    "domain": "Developer Tools",
+    "description": "An application that statically analyzes a codebase and produces automated review comments and quality scores.",
+    "features": ["Machine Learning", "REST API", "Dashboard", "Database", "Reports / Export"]
+  },
+  {
+    "name": "Inventory Management System",
+    "domain": "Supply Chain / Retail",
+    "description": "A system for tracking stock levels, purchase orders, and supplier information with low-stock alerts.",
+    "features": ["CRUD Operations", "Database", "Notifications", "Reports / Export", "Authentication", "REST API"]
+  }
+]
